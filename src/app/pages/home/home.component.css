@@ -1,0 +1,35 @@
+.container {
+    margin-top: 140px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    margin: 0;
+    line-height: 1.3;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.descricao {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.data-evento {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #777;
+}

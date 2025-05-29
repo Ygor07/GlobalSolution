@@ -1,0 +1,16 @@
+<div class="container card" [appHoverBorder]="'#FF5100'">
+    <div class="content" *ngIf="evento">
+        <h1>
+            {{ evento.titulo  }} | {{ evento.local }}
+        </h1>
+        <h2> {{ evento.data }} | {{ evento.horario }}</h2>
+        <button 
+        (click)="onClick()">
+            Participar
+        </button>
+        <div class="mensagem-inscricao" *ngIf="subscribed">
+            Você se inscreveu no evento: <strong>{{ evento.titulo }}</strong>
+        </div>
+    </div>
+   
+</div>
